@@ -10,11 +10,9 @@
         title="Props"
       />
       <SandboxSectionComponent title="buttonText">
-        <KPop button-text="KPop Button">
-          <template #content>
-            Popover content.
-          </template>
-        </KPop>
+        <KTooltip text="A simple tooltip.">
+  <KButton>Button</KButton>
+</KTooltip>
       </SandboxSectionComponent>
       <SandboxSectionComponent title="tag">
         <KPop
